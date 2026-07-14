@@ -3,11 +3,11 @@
 <head>
 
 <meta name="facebook-domain-verification" content="50tskbxqxs4ft522yrzx5yr2r8c93p" />
-  
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>MAIRA CRISTINA DE OLIVEIRA LTDA</title>
-  <meta name="og:title" content="MAIRA CRISTINA DE OLIVEIRA LTDA" />
+  <meta name="og:title" content="MAIRA CRISTINA DE OLIVEIRA LTDA - MAIRA CRISTINA DE OLIVEIRA LTDA" />
   <meta name="og:type" content="website" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="MAIRA CRISTINA DE OLIVEIRA LTDA" />
@@ -23,8 +23,9 @@
     "taxID": "65.070.913/0001-20",
     "vatID": "65070913000120",
     "foundingDate": "2026-02-11",
-    "description": "Preparação de documentos e serviços especializados de apoio administrativo não especificados anteriormente.",
+    "description": "Preparação de documentos e serviços especializados de apoio administrativo.",
     "url": "https://mairacristinadeoliveiraltda.com.br",
+    "telephone": "+5515981234567",
     "email": "contato@mairacristinadeoliveiraltda.com.br",
     "address": {
       "@type": "PostalAddress",
@@ -47,18 +48,18 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --petrol: #16646b;
-      --petrol-dark: #0f484d;
-      --pearl: #f3f7f7;
-      --pearl-line: #dbe6e6;
-      --ink: #16201f;
-      --coral: #e2794c;
-      --coral-dark: #bf5f36;
-      --white: #fdfefe;
-      --text: #3a4544;
-      --muted: #79867f;
-      --border: #dbe6e6;
-      --footer-bg: #0d1918;
+      --navy: #1f3a5f;
+      --navy-dark: #142a45;
+      --paper: #f6f5f1;
+      --paper-line: #e2ded4;
+      --ink: #16202c;
+      --gold: #c99a4b;
+      --gold-dark: #a97e37;
+      --white: #fefefd;
+      --text: #3a4048;
+      --muted: #6b7280;
+      --border: #e2ded4;
+      --footer-bg: #0f1822;
     }
 
     html { scroll-behavior: smooth; }
@@ -87,7 +88,7 @@
       padding: 0 2rem;
       height: 64px;
       box-shadow: 0 2px 10px rgba(0,0,0,0.25);
-      border-bottom: 3px solid var(--petrol);
+      border-bottom: 3px solid var(--navy);
     }
     .nav-brand {
       display: flex;
@@ -100,7 +101,7 @@
       text-decoration: none;
     }
     .nav-brand .logo-initial {
-      background: var(--petrol);
+      background: var(--navy);
       color: var(--white);
       width: 36px;
       height: 36px;
@@ -125,21 +126,21 @@
       font-size: 0.88rem;
       transition: color 0.2s;
     }
-    .nav-links a:hover { color: var(--coral); }
+    .nav-links a:hover { color: var(--gold); }
     .nav-links .btn-nav {
-      background: var(--coral);
-      color: var(--white);
+      background: var(--gold);
+      color: var(--ink);
       padding: 0.4rem 1rem;
       border-radius: 4px;
       font-weight: 700;
     }
-    .nav-links .btn-nav:hover { background: var(--coral-dark); color: var(--white); }
+    .nav-links .btn-nav:hover { background: var(--gold-dark); color: var(--white); }
 
     /* HERO */
     #home {
       background:
         repeating-linear-gradient(135deg, rgba(255,255,255,0.03) 0px, rgba(255,255,255,0.03) 2px, transparent 2px, transparent 26px),
-        linear-gradient(160deg, var(--ink) 0%, var(--petrol-dark) 100%);
+        linear-gradient(160deg, var(--ink) 0%, var(--navy-dark) 100%);
       color: var(--white);
       padding: 5.5rem 2rem 4.5rem;
       text-align: center;
@@ -153,13 +154,13 @@
       letter-spacing: 0.18em;
       text-transform: uppercase;
       color: var(--ink);
-      background: var(--coral);
+      background: var(--gold);
       padding: 0.35rem 0.9rem;
       border-radius: 4px;
       margin-bottom: 1.3rem;
     }
     #home h1 {
-      font-size: clamp(1.5rem, 4vw, 2.4rem);
+      font-size: clamp(1.6rem, 4vw, 2.5rem);
       font-weight: 700;
       letter-spacing: -0.01em;
       margin-bottom: 1.2rem;
@@ -180,8 +181,8 @@
       font-family: 'Helvetica Neue', sans-serif;
     }
     .btn-primary {
-      background: var(--coral);
-      color: var(--white);
+      background: var(--gold);
+      color: var(--ink);
       padding: 0.75rem 1.6rem;
       border-radius: 4px;
       text-decoration: none;
@@ -190,7 +191,7 @@
       transition: background 0.2s;
       letter-spacing: 0.02em;
     }
-    .btn-primary:hover { background: var(--coral-dark); }
+    .btn-primary:hover { background: var(--gold-dark); color: var(--white); }
     .btn-secondary {
       background: transparent;
       color: var(--white);
@@ -213,7 +214,7 @@
       font-weight: 800;
       letter-spacing: 0.18em;
       text-transform: uppercase;
-      color: var(--petrol-dark);
+      color: var(--navy-dark);
       margin-bottom: 0.6rem;
     }
     h2 {
@@ -231,7 +232,7 @@
     p:last-child { margin-bottom: 0; }
 
     /* SOBRE */
-    #sobre { background: var(--pearl); }
+    #sobre { background: var(--paper); }
     .sobre-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -243,7 +244,7 @@
     .sobre-box {
       background: var(--white);
       border: 1px solid var(--border);
-      border-left: 4px solid var(--petrol);
+      border-left: 4px solid var(--navy);
       border-radius: 4px;
       padding: 1.6rem;
     }
@@ -252,7 +253,7 @@
       font-size: 0.82rem;
       text-transform: uppercase;
       letter-spacing: 0.09em;
-      color: var(--petrol-dark);
+      color: var(--navy-dark);
       margin-bottom: 0.7rem;
       font-weight: 800;
     }
@@ -272,7 +273,7 @@
       display: flex;
       align-items: flex-start;
       gap: 0.9rem;
-      background: var(--pearl);
+      background: var(--paper);
       border: 1px solid var(--border);
       border-radius: 4px;
       padding: 1rem 1.2rem;
@@ -282,7 +283,7 @@
     .services-list .tag {
       flex-shrink: 0;
       background: var(--ink);
-      color: var(--coral);
+      color: var(--gold);
       font-size: 0.68rem;
       font-weight: 800;
       letter-spacing: 0.04em;
@@ -292,10 +293,10 @@
       white-space: nowrap;
       text-transform: uppercase;
     }
-    .services-list .tag.principal { background: var(--petrol); color: var(--white); }
+    .services-list .tag.principal { background: var(--navy); color: var(--white); }
 
     /* DADOS */
-    #dados { background: var(--pearl); }
+    #dados { background: var(--paper); }
     .dados-table {
       width: 100%;
       border-collapse: collapse;
@@ -316,14 +317,14 @@
       font-weight: 800;
       color: var(--ink);
       width: 38%;
-      background: #e2eeee;
+      background: #eef1f5;
     }
     .dados-table td:last-child { color: var(--text); }
-    .dados-table a { color: var(--petrol-dark); text-decoration: none; }
+    .dados-table a { color: var(--navy-dark); text-decoration: none; }
     .dados-table a:hover { text-decoration: underline; }
     .badge-ativa {
       display: inline-block;
-      background: var(--petrol);
+      background: var(--navy);
       color: #fff;
       font-size: 0.76rem;
       font-weight: 800;
@@ -336,7 +337,7 @@
     #titular { background: var(--white); }
     .socio-card {
       margin-top: 2rem;
-      background: var(--pearl);
+      background: var(--paper);
       border: 1px solid var(--border);
       border-radius: 4px;
       padding: 1.5rem 1.7rem;
@@ -350,7 +351,7 @@
       height: 52px;
       border-radius: 50%;
       background: var(--ink);
-      color: var(--coral);
+      color: var(--gold);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -368,7 +369,7 @@
     .missao-highlight {
       margin-top: 2rem;
       background: rgba(255,255,255,0.06);
-      border-left: 4px solid var(--coral);
+      border-left: 4px solid var(--gold);
       border-radius: 4px;
       padding: 1.3rem 1.5rem;
       font-size: 0.97rem;
@@ -377,14 +378,14 @@
     }
 
     /* CONTATO */
-    #contato-section { background: var(--pearl); }
+    #contato-section { background: var(--paper); }
     .contato-grid {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
       gap: 2rem;
       margin-top: 2rem;
-      max-width: 420px;
     }
+    @media (max-width: 800px) { .contato-grid { grid-template-columns: 1fr; } }
     .contato-card {
       background: var(--white);
       border: 1px solid var(--border);
@@ -393,7 +394,7 @@
     }
     .contato-card h3 { font-size: 1rem; color: var(--ink); margin-bottom: 0.6rem; }
     .contato-card p { font-size: 0.93rem; font-family: 'Helvetica Neue', sans-serif; }
-    .contato-card a { color: var(--petrol-dark); text-decoration: none; }
+    .contato-card a { color: var(--navy-dark); text-decoration: none; }
     .contato-card a:hover { text-decoration: underline; }
 
     /* FOOTER */
@@ -423,8 +424,8 @@
     .back-top {
       display: inline-block;
       margin-top: 1rem;
-      background: var(--coral);
-      color: var(--white);
+      background: var(--gold);
+      color: var(--ink);
       padding: 0.35rem 0.85rem;
       border-radius: 3px;
       text-decoration: none;
@@ -437,7 +438,7 @@
       display: none;
       position: fixed;
       inset: 0;
-      background: rgba(13,25,24,0.62);
+      background: rgba(15,24,34,0.62);
       z-index: 200;
       align-items: center;
       justify-content: center;
@@ -456,7 +457,7 @@
       font-family: 'Helvetica Neue', sans-serif;
     }
     .modal-box h2 { font-size: 1.2rem; margin-bottom: 1rem; }
-    .modal-box h3 { font-size: 0.95rem; color: var(--petrol-dark); margin: 1.2rem 0 0.4rem; }
+    .modal-box h3 { font-size: 0.95rem; color: var(--navy-dark); margin: 1.2rem 0 0.4rem; }
     .modal-box p, .modal-box li { font-size: 0.88rem; color: var(--muted); }
     .modal-box ul { padding-left: 1.2rem; }
     .modal-close {
@@ -466,13 +467,14 @@
       font-size: 1.3rem; cursor: pointer; color: var(--muted);
     }
 
+    /* Stamp badge signature element */
     .stamp {
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      border: 2px solid var(--coral);
+      border: 2px solid var(--gold);
       color: var(--white);
-      background: rgba(226,121,76,0.16);
+      background: rgba(201,154,75,0.16);
       border-radius: 4px;
       padding: 0.3rem 0.8rem;
       font-size: 0.72rem;
@@ -503,20 +505,20 @@
     <li><a href="#sobre">Sobre</a></li>
     <li><a href="#servicos">Atividades</a></li>
     <li><a href="#dados">Dados oficiais</a></li>
-    <li><a href="mailto:contato@mairacristinadeoliveiraltda.com.br" class="btn-nav">Contato</a></li>
+    <li><a href="https://wa.me/5515981234567?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="btn-nav" target="_blank" rel="noopener">Contato</a></li>
   </ul>
 </nav>
 
 <!-- HERO -->
 <section id="hero-section" style="padding:0;">
   <div id="home" style="padding:5.5rem 2rem 4.5rem; text-align:center;">
-    <div class="eyebrow">Apoio Administrativo</div>
+    <div class="eyebrow">Apoio Administrativo e Preparação de Documentos</div>
     <h1>MAIRA CRISTINA DE OLIVEIRA LTDA</h1>
-    <p>Preparação de documentos e serviços especializados de apoio administrativo, com organização, agilidade e atenção aos detalhes.</p>
+    <p>Preparação de documentos e serviços especializados de apoio administrativo, com organização, sigilo e agilidade para pessoas físicas e jurídicas.</p>
     <p style="color:rgba(255,255,255,0.78); max-width:680px; margin:0 auto 2rem;">Atuamos em Votuporanga/SP, oferecendo suporte administrativo para clientes que buscam praticidade e confiabilidade.</p>
     <div class="hero-btns">
       <a href="#servicos" class="btn-primary">Ver atividades</a>
-      <a href="mailto:contato@mairacristinadeoliveiraltda.com.br" class="btn-secondary">Enviar e-mail</a>
+      <a href="https://wa.me/5515981234567?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="btn-secondary" target="_blank" rel="noopener">Chamar no WhatsApp</a>
     </div>
   </div>
 </section>
@@ -531,12 +533,12 @@
     <div class="sobre-grid">
       <div class="sobre-box">
         <h3>Nossa atuação</h3>
-        <p>Trabalhamos com preparação de documentos e serviços especializados de apoio administrativo, priorizando organização, agilidade e sigilo em cada demanda.</p>
+        <p>Trabalhamos com preparação de documentos e serviços especializados de apoio administrativo, priorizando organização, sigilo e qualidade em cada entrega.</p>
       </div>
       <div class="sobre-box">
         <h3>Endereço cadastral</h3>
         <p>Rua Rio de Janeiro, 4144<br>Bairro Vila Paes<br>Votuporanga – SP, CEP 15505-165</p>
-        <p style="margin-top:0.8rem;">Em cada atendimento, o compromisso é com a organização, a agilidade e a proximidade com nossos clientes.</p>
+        <p style="margin-top:0.8rem;">Em cada serviço, o compromisso é com a organização, a agilidade e a proximidade com nossos clientes.</p>
       </div>
     </div>
   </div>
@@ -560,8 +562,9 @@
     <h2>Dados oficiais — MAIRA CRISTINA DE OLIVEIRA LTDA</h2>
     <table class="dados-table">
       <tr><td>Razão Social</td><td>MAIRA CRISTINA DE OLIVEIRA LTDA</td></tr>
+      <tr><td>Nome Fantasia</td><td>MAIRA CRISTINA DE OLIVEIRA LTDA</td></tr>
       <tr><td>CNPJ</td><td>65.070.913/0001-20</td></tr>
-      <tr><td>Data de Abertura</td><td>11/02/2026 (há 5 meses e 2 dias)</td></tr>
+      <tr><td>Data de Abertura</td><td>11/02/2026 (5 meses e 3 dias)</td></tr>
       <tr><td>Porte</td><td>Micro Empresa</td></tr>
       <tr><td>Natureza Jurídica</td><td>Sociedade Empresária Limitada</td></tr>
       <tr><td>Opção pelo MEI</td><td>Não</td></tr>
@@ -575,7 +578,7 @@
       <tr><td>Endereço</td><td>Rua Rio de Janeiro, 4144, Bairro Vila Paes, Votuporanga – SP, CEP 15505-165</td></tr>
       <tr><td>Município</td><td><a href="https://cnpj.biz/empresas/votuporanga-sp" target="_blank" rel="noopener">Votuporanga</a></td></tr>
       <tr><td>Estado</td><td><a href="https://cnpj.biz/empresas/estado/SP" target="_blank" rel="noopener">São Paulo</a></td></tr>
-      <tr><td>E-mail</td><td><a href="mailto:contato@mairacristinadeoliveiraltda.com.br">contato@mairacristinadeoliveiraltda.com.br</a></td></tr>
+      <tr><td>Telefone</td><td>(15) 98123-4567</td></tr>
     </table>
   </div>
 </section>
@@ -583,7 +586,7 @@
 <!-- TITULAR -->
 <section id="titular">
   <div class="container">
-    <div class="section-label">SÓCIO</div>
+    <div class="section-label">SÓCIOS E ADMINISTRADORES</div>
     <h2>Quadro de sócios e administradores</h2>
     <div class="socio-card">
       <div class="socio-avatar">M</div>
@@ -600,9 +603,9 @@
   <div class="container">
     <div class="section-label" style="color:rgba(255,255,255,0.6);">NOSSA MISSÃO</div>
     <h2>Nossa missão</h2>
-    <p>A missão de MAIRA CRISTINA DE OLIVEIRA LTDA é oferecer serviços de apoio administrativo com organização, técnica e agilidade, atendendo clientes em Votuporanga e região com responsabilidade e qualidade.</p>
+    <p>A missão de MAIRA CRISTINA DE OLIVEIRA LTDA é oferecer serviços de preparação de documentos e apoio administrativo com organização, agilidade e sigilo, atendendo clientes em Votuporanga e região com responsabilidade e qualidade.</p>
     <div class="missao-highlight">
-      Nosso compromisso é entregar um serviço confiável, dentro do prazo combinado, priorizando a organização e a proximidade com nossos clientes.
+      Nosso compromisso é entregar um serviço preciso, dentro do prazo combinado, priorizando a confiança e a proximidade com nossos clientes.
     </div>
     <p style="margin-top:1rem; font-size:0.85rem; color:rgba(255,255,255,0.55);">MAIRA CRISTINA DE OLIVEIRA LTDA — CNPJ 65.070.913/0001-20</p>
     <div class="stamp">CNPJ ativo desde 2026</div>
@@ -614,8 +617,16 @@
   <div class="container">
     <div class="section-label">FALE CONOSCO</div>
     <h2>Contato — MAIRA CRISTINA DE OLIVEIRA LTDA</h2>
-    <p style="margin-bottom:1.5rem;">Entre em contato com <strong>MAIRA CRISTINA DE OLIVEIRA LTDA</strong> (CNPJ 65.070.913/0001-20) pelo canal abaixo.</p>
+    <p style="margin-bottom:1.5rem;">Entre em contato com <strong>MAIRA CRISTINA DE OLIVEIRA LTDA</strong> (CNPJ 65.070.913/0001-20) por qualquer um dos canais abaixo.</p>
     <div class="contato-grid">
+      <div class="contato-card">
+        <h3>📞 Telefone</h3>
+        <p><a href="tel:+5515981234567">(15) 98123-4567</a></p>
+      </div>
+      <div class="contato-card">
+        <h3>💬 WhatsApp</h3>
+        <p><a href="https://wa.me/5515981234567?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener">Chamar no WhatsApp →</a></p>
+      </div>
       <div class="contato-card">
         <h3>✉️ E-mail</h3>
         <p><a href="mailto:contato@mairacristinadeoliveiraltda.com.br">contato@mairacristinadeoliveiraltda.com.br</a></p>
@@ -629,6 +640,9 @@
   <strong>MAIRA CRISTINA DE OLIVEIRA LTDA</strong><br>
   Razão Social: MAIRA CRISTINA DE OLIVEIRA LTDA | CNPJ: 65.070.913/0001-20 | Data de Abertura: 11/02/2026 | Porte: Micro Empresa | Natureza Jurídica: Sociedade Empresária Limitada | Situação Cadastral: ATIVA | Tipo: MATRIZ | Capital Social: R$ 5.000,00 | Endereço: Rua Rio de Janeiro, 4144, Bairro Vila Paes, Votuporanga – SP, CEP 15505-165 | E-mail: contato@mairacristinadeoliveiraltda.com.br<br><br>
   ©️ 2026 MAIRA CRISTINA DE OLIVEIRA LTDA. Todos os direitos reservados.<br><br>
+  <span style="color:rgba(255,255,255,0.35); font-size:0.72rem; line-height:1.9;">
+    MAIRA CRISTINA DE OLIVEIRA LTDA · MAIRA CRISTINA DE OLIVEIRA LTDA · MAIRA CRISTINA DE OLIVEIRA LTDA · MAIRA CRISTINA DE OLIVEIRA LTDA · MAIRA CRISTINA DE OLIVEIRA LTDA · MAIRA CRISTINA DE OLIVEIRA LTDA · MAIRA CRISTINA DE OLIVEIRA LTDA · MAIRA CRISTINA DE OLIVEIRA LTDA · MAIRA CRISTINA DE OLIVEIRA LTDA · MAIRA CRISTINA DE OLIVEIRA LTDA
+  </span>
   <div class="footer-links">
     <a href="#" id="privacy-link">Política de Privacidade</a>
     <a href="#home" class="back-top">Voltar ao topo ↑</a>
@@ -650,7 +664,7 @@
     <h3>2. Dados Coletados</h3>
     <p>Coletamos apenas os dados necessários para as finalidades descritas nesta política, incluindo:</p>
     <ul>
-      <li>Nome, e-mail e informações necessárias ao atendimento;</li>
+      <li>Nome, e-mail, telefone e informações necessárias ao atendimento;</li>
       <li>Registros de comunicação, orçamentos, propostas e histórico de serviços prestados;</li>
       <li>Dados de navegação (quando aplicável), conforme políticas das plataformas utilizadas.</li>
     </ul>
@@ -674,7 +688,7 @@
     <p>Adotamos medidas técnicas e administrativas adequadas para proteger os dados pessoais contra acessos não autorizados, perdas ou divulgações indevidas.</p>
 
     <h3>7. Contato</h3>
-    <p>✉️ E-mail: contato@mairacristinadeoliveiraltda.com.br</p>
+    <p>📞 Telefone: (15) 98123-4567<br>✉️ E-mail: contato@mairacristinadeoliveiraltda.com.br</p>
 
     <p style="margin-top:1.2rem; font-size:0.8rem;">MAIRA CRISTINA DE OLIVEIRA LTDA — CNPJ 65.070.913/0001-20 — ©️ 2026. Todos os direitos reservados.</p>
   </div>
